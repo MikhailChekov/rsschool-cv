@@ -1,0 +1,100 @@
+// Mixins
+@import "mixins.scss";
+
+//default fonts
+$font-family: "Roboto";
+
+//Variables
+$min-width: 320px;
+
+$mw: 700px;
+$md1: $mw + 12px;
+$md2: 991.98px;
+$md3: 767.98px;
+$md4: 479.98px;
+
+// Reset , default params
+@import "reset.scss";
+
+body {
+  color: #000;
+  font-size: 16px;
+  background-color: #e3e3e8;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  &.loaded {
+  }
+}
+
+//main.page
+.page {
+  padding: 75px 0px 0px 0px;
+  flex: 1 1 auto;
+}
+
+//use for limit content
+.container {
+  max-width: $mw;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.ibg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  img {
+    display: none;
+  }
+}
+
+.img {
+  margin-bottom: 10px;
+  img {
+    width: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+.h1 {
+  font-size: 36px;
+  margin: 10px 0;
+}
+.h3 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.container p {
+  margin-bottom: 10px;
+}
+
+ul > li {
+  margin-bottom: 10px;
+  margin-left: 25px;
+  list-style-type: disc;
+}
+
+.git {
+  code {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-left: 3px solid #f36d33;
+    color: #666;
+    page-break-inside: avoid;
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    max-width: 100%;
+    overflow: auto;
+    padding: 15px 20px;
+    display: block;
+    word-wrap: break-word;
+  }
+}
