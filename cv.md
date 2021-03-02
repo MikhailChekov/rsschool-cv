@@ -22,7 +22,7 @@ Also i created some css templates:
 
 I made templates using the lessons from youtube, games i made by myself. 
 
-My web development learning takes about 1.5 years, i usually use youtube video and read books. I also improve my English skills. Now my level is something like A2+. I read english articles, watch movie with subtitles and translate favourite songs, also i train skills with the android app - "Simpler".
+My web development learning takes about 1.5 years, i usually use youtube video and read books. I also improve my English skills. Now my level is something like A2+. I read english articles, watch movie with subtitles and translate favourite songs, also i train language skills with the android app - "Simpler".
 
 #### [My github](https://github.com/MikhailChekov/)  
 
