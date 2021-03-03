@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,21 +14,54 @@
   <div class="wrapper">
     <main class="page">
       <div class="container">
-        <section class="about">
+        <header class="header">
+          <nav class="header__menu menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="#about" class="menu__link">About</a>
+              </li>
+              <li class="menu__item">
+                <a href="#skills" class="menu__link">Skills</a>
+              </li>
+              <li class="menu__item">
+                <a href="#english" class="menu__link">English</a>
+              </li>
+              <li class="menu__item">
+                <a href="#code" class="menu__link">Code</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <section id="about" class="about">
           <h1 class="h1">Mikhail Chekov</h1>
           <div class="img">
             <img src="img/m.chekov.jpg" alt="Mikhail Chekov photo cv">
           </div>
-          <p>
-            <b>Contacts: +79030168585, chekoff@list.ru</b>
-            <b>32 years, Russia, Moscow</b>
-          </p>
+          <p><b><b>Russia, Moscow (32 years) </b></b></p>
+          <ul>
+            <li><a href="tel:+79030168585" target="_blank">+79030168585</a></li>
+            <li>
+              <a href="mailto:chekoff@list.ru" target="_blank">
+                chekoff@list.ru
+              </a>
+            </li>
+            <li>
+              <a href="https://t.me/MikeChekov" target="_blank">
+                Telegram
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/MikhailChekov/" target="_blank">
+                Github
+              </a>
+            </li>
+          </ul>
           <h3 class="h3">About programmer way:</h3>
-          <p>I have been looking for my favourite busy for a long time and decided to stop at programming. I
-            like it
-            because I can invent something in my head and then implement it in code. I also like it because
-            the
-            result of my work can be useful to people. I want create app or something else what can somehow
+          <p>I have been looking for my favourite busy for a long time and decided to stop at programming.
+            It inspires me that I can create projects that can help other people and also make this world a better
+            place. it also inspires me that it is not easy for me and for progress it is necessary to constantly learn
+            and learn something new and I feel that I am becoming a better person
+            . I want create app or something else what can somehow
             helps
             people, it motivates me to learn and improve skills in this direction.
             In addition to programming, I am interested in self-development, mainly psychology, a little
@@ -35,7 +69,7 @@
             culture, yoga meditation and self-knowledge.
           </p>
         </section>
-        <section class="skills">
+        <section id="skills" class="skills">
           <h3 class="h3">My skills and completed projects</h3>
           <p>I have some experience in JavaScript(es6+), HTML5&CSS3, Sass/Less, React/Vue, Gulp/Webpack, Api,
             Ajax.
@@ -45,15 +79,23 @@
 
           <p>I have some experiece to creating game apps on react and vue js:</p>
           <ul>
-            <li><a href="https://mikhailchekov.github.io/snake-game-reactjs/">Snake game</a></li>
-            <li><a href="https://mikhailchekov.github.io/vue-memory-card-game/">Vue memory game</a></li>
+            <li><a target="_blank" href="https://mikhailchekov.github.io/snake-game-reactjs/">Snake game</a> – <a
+                target="_blank" href="https://github.com/MikhailChekov/snake-game-reactjs">Code</a></li>
+            <li><a target="_blank" href="https://mikhailchekov.github.io/vue-memory-card-game/">Vue memory game</a> – <a
+                target="_blank" href="https://github.com/MikhailChekov/vue-memory-card-game">Code</a></li>
           </ul>
           <p>Also i created some css templates:</p>
           <ul>
-            <li><a href="https://mikhailchekov.github.io/bicycle-theme-template/">Bicycle template</a></li>
-            <li><a href="https://mikhailchekov.github.io/lux-trader-template/index.html">Lux trader template</a></li>
+            <li><a target="_blank" href="https://mikhailchekov.github.io/bicycle-theme-template/">Bicycle template </a>
+              – <a target="_blank" href="https://github.com/MikhailChekov/bicycle-theme-template">Code</a></li>
+            <li><a target="_blank" href="https://mikhailchekov.github.io/lux-trader-template/index.html">Lux trader
+                template</a> – <a target="_blank" href="https://github.com/MikhailChekov/lux-trader-template">Code</a>
+            </li>
           </ul>
           <p>I made templates using the lessons from youtube, games i made by myself.</p>
+        </section>
+        <section id="english" class="english">
+          <h3 class="h3">English</h3>
           <p> My web development learning takes about 1.5 years, i usually use youtube video and read books. I
             also
             improve my English skills. Now my level is something like A2+. I read english articles, watch
@@ -63,8 +105,8 @@
             "Simpler".
           </p>
         </section>
-        <section class="git">
-          <h3 class="h3"><a href="https://github.com/MikhailChekov/">My github</a></h3>
+        <section id="code" class="code">
+          <h3 class="h3">Code example</h3>
           <p>And code example, hmm something like this: </p>
           <pre>
             <code>
@@ -83,9 +125,29 @@
             </code>
           </pre>
         </section>
+        <footer class="footer">
+          <div class="footer__column">
+            <p><a class="rslogo-link" href="https://rs.school/js/" target="_blank">
+                <img class="rslogo" src="img/logo-rs.svg" alt="">
+              </a></p>
+          </div>
+          <div class="footer__column">
+            <ul>
+              <li>
+                <a href="https://github.com/MikhailChekov/" target="_blank">
+                  Github
+                </a>
+              </li>
+              <li>
+                <p>
+                  © 2021
+                </p>
+              </li>
+            </ul>
+          </div>
+        </footer>
       </div>
     </main>
   </div>
-  <script src="js/index.min.js"></script>
 </body>
 </html>
